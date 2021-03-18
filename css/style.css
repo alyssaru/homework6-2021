@@ -140,7 +140,7 @@ header{
 }
 
 
-@media print { 
+@media print{ 
 
   /*Requirement 13*/
   body{
@@ -150,6 +150,8 @@ header{
   .nav{
     flex-wrap: nowrap;
     width: 100%;
+    justify-content: space-evenly;
+    align-items: space-evenly;
   }
 
   /*Requirement 15*/
@@ -177,8 +179,8 @@ header{
   }
   /*Requirement 18*/
   .gallery, #gallery{
-    visibility: hidden;
+    display: none;
   }
- 
+
 }
 
