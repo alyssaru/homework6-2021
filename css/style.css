@@ -5,6 +5,7 @@ body{
   padding: 0;
   font-size: 16pt; 
   font-family: "Raleway", sans-serif;
+  background-image: url(../images/concrete_seamless.png);
 }
 
 /*Requirement 2*/
@@ -12,12 +13,19 @@ header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /*Requirement 3*/
 .nav_links{
   /*Your code here again.*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -28,6 +36,12 @@ header{
     /*You must use flex.
     /*Don't forget to vertically and horizontally 
     align the element*/
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /*flex-basis: 400px;*/
 }
 
 /*Requirement 5*/
@@ -38,18 +52,17 @@ header{
   padding: 0 0 50px 0;
   /*Your code here.*/
   /*Take a look at flex-basis*/
-
+  flex-basis: 400px;
 }
 
 /*Requirement 6*/
-/**  UNCOMMENT THIS CODE ONCE YOU
-/**  HAVE THE SELECTOR
-{
+
+.package > header{
   background: #288080;
   border: 2px solid #45ADAD;
   padding: 20px 0;
   border-radius: 7px 7px 0 0;
-}*/
+}
 
 
 /*Requirement 7*/
