@@ -69,18 +69,21 @@ header{
 .gallery{
   min-height: 600px;
   /*Your code here again.*/
-
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /*Requirement 8*/
-/**  UNCOMMENT THIS CODE ONCE YOU
-/**  HAVE THE SELECTOR
-{
+
+.gallery > img {
   border: 10px #50C7C7 solid;
   margin: 10px;
   width: 300px;
 }
-*/
+
 
 /*Requirement 9*/
 #logo{
