@@ -17,6 +17,7 @@ header{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
 }
 
 /*Requirement 3*/
@@ -26,6 +27,7 @@ header{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap-reverse;
 }
 
 
@@ -101,8 +103,8 @@ header{
 
 @keyframes logo_grow{
   /*Your code here.*/
-  0% {opacity: 0; width: 25px}
-  100% {opacity: 1; width: 420px}
+  /*0% {opacity: 0; width: 25px}
+  100% {opacity: 1; width: 420px}*/
 } 
 
 @media screen and (min-width: 850px){
@@ -110,16 +112,21 @@ header{
   /*Requirement 10*/
   header{
     /*Your code here again.*/  
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   /*Requirement 10*/
   .nav_links{
-    /*Your code here again.*/  
+    /*Your code here again.*/ 
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 
   /*Requirement 11*/
   .package {
     /*Your code here again.*/
+    flex-basis: 230px;
   } 
 }
 
