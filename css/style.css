@@ -103,8 +103,8 @@ header{
 
 @keyframes logo_grow{
   /*Your code here.*/
-  /*0% {opacity: 0; width: 25px}
-  100% {opacity: 1; width: 420px}*/
+  0% {opacity: 0; width: 25px}
+  100% {opacity: 1; width: 420px}
 } 
 
 @media screen and (min-width: 850px){
